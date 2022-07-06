@@ -1,0 +1,168 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0;
+	font-size: 120%;
+	background-color: #F2F2F2;
+}
+.header{
+	width: 100%;
+	color: #ff9933;
+	background: #ffe6cc;
+	margin-bottom: 0px; 
+	text-align: center;
+	font-size: 50px;
+	font-family: Georgia, serif;
+	border: 5px solid orange;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px 0px 0px 0px;
+	padding: 5px;
+	height: auto;
+}
+
+.logout {
+	float: right;
+	font-size: 28px;
+	margin-right: 1%;
+	margin-top: -66px;
+}
+
+.backarrow{
+	border: solid orange;
+	border-width: 0 5px 5px 0;
+	padding: 15px;
+	width: 15px;
+	height: 15px;
+	box-sizing: border-box;
+	margin-top: -55px;
+	margin-left: 15px;
+	transform: rotate(135deg);
+	display: block;
+}
+.backarrow:hover{
+	cursor: pointer;
+	color: #e62e00;
+	background: transparent;
+	border-color: #e62e00;
+	transition: 1s;
+}
+.error {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: solid;
+	border-color: red;
+	border-width: 2px;
+	color: red;
+	background: #ffe6cc;
+	border-radius: 5px;
+	text-align: left; 
+}
+.successful {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: solid;
+	border-color: green;
+	border-width: 2px;
+	color: green;
+	background: #ffe6cc;
+	border-radius: 5px;
+	text-align: left; 
+}
+
+.success {
+	color: black;
+	background: none;
+	border: 0px;
+	width: 30%;
+	margin: 0px auto;
+	padding: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 3px solid orange;
+	border-top: none;
+	background: white;
+	border-radius: 0px 0px 0px 0px;
+	text-align: center; 
+}
+
+.buttonhome {
+	width: 400px;
+	color: #ff9933;
+	background: #ffe6cc;
+	position: fixed;
+	text-align: center;
+	text-decoration: none;
+	font-size: 60px;
+	font-family: Georgia, serif;
+	border: 3px solid orange;
+	border-radius: 20px 20px 20px 20px;
+	padding: 15px;
+}
+
+.reflbtn {
+	margin-top: 10%;
+	margin-left: 4%;
+}
+.newreflbtn {
+	margin-top: 10%;
+	margin-left: 35.5%;	
+}
+
+.prflbtn {
+	margin-top: 10%;
+	margin-left: 67%;
+	padding-top: 50px;
+	padding-bottom: 48px;	
+}
+
+.studentsbtn {
+	margin-top: 10%;
+	margin-left: 20%;
+}
+.prfl1btn {
+	margin-top: 10%;
+	margin-left: 60%;
+}
+.buttonhome:hover{
+	cursor: pointer;
+	color: #e62e00;
+	background: #ff944d;
+	border-color: #e62e00;
+	transition: 0.5s;
+}
+
+.textbox { 
+    border: 3px inset #ff9933; 
+    outline:0; 
+    height: 450px; 
+    width: 80%; 
+    margin-top: 100px;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.button{
+	padding: 5px;
+	font-size: 25px;
+	color: orange;
+	background: #ffe6cc;
+	border: solid orange;
+	border-width: 2px;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 84%;
+	margin-top: 5px;
+}
+
+.button:hover{
+	cursor: pointer;
+	color: #e62e00;
+	background: #ff944d;
+	border-color: #e62e00;
+	transition: 0.5s;
+}
+
